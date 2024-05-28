@@ -26,19 +26,25 @@
         <div class="container">
             <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Sridhar</a>
 
-           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
                     </li>
+                    <li class="nav-item">
+                      <a href="#achievements" class="nav-link"><span data-hover="Achievements">Achievements</span></a>
+                  </li>
                      <li class="nav-item">
                         <a href="#experience" class="nav-link"><span data-hover="Experience">Experience</span></a>
-                    </li> 
-                    <!-- <li class="nav-item">
-                        <a href="#education" class="nav-link"><span data-hover="Education">Education</span></a>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
                     </li>
@@ -89,61 +95,60 @@
                         <img src="images/undraw/man.jpg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- PROJECTS 
-    <section class="project py-5" id="project">
-        <div class="container">
+    <!-- Achievements -->
+    <section class="achievement py-5" id="achievements">
+      <div class="container">
                 
                 <div class="row">
                   <div class="col-lg-11 text-center mx-auto col-12">
 
                       <div class="col-lg-8 mx-auto">
-                        <h2>Things I have designed for digital media agencies</h2>
+                        <h2 class="mb-4">Achievements</h2>
                       </div>
 
                       <div class="owl-carousel owl-theme">
                         <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
+                          <div class="achievement">
+                            <div class="about-image png">
+                            <img src="images/img-01.png" class="img-responsive" alt="Image of Revenue Growth">
+                          </div>
+                              <h2 class="a1"><b>Consistent Revenue Growth</b></h2>
+                              <p class="topic">Achieving and surpassing revenue targets consistently over 
+                                  consecutive quarters or years showcases effective management of 
+                                  bench sales operations and client relationships.</p>
                           </div>
                         </div>
 
                         <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
+                          <div class="achievement">
+                              <img src="images/img-02.png" class="img-responsive" alt="Image of Performance">
+                              <h2 class="a2">Team Development and Performance</h2>
+                              <p class="topic">Building and nurturing a high-performing bench sales team through effective 
+                                leadership, coaching, and mentorship, resulting in enhanced productivity and achievement of 
+                                collective goals.</p>
                           </div>
                         </div>
 
                         <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
+                          <div class="achievement">
+                            <img src="images/img-03.png" class="img-responsive" alt="Image of Customer Satisfaction">
+                              <h2 class="a3">Customer Satisfaction and Feedback</h2>
+                                <p class="topic">Garnering positive feedback from clients regarding the quality of service, 
+                                  responsiveness, and overall satisfaction, leading to long-term partnerships and referrals.</p>
                           </div>
                         </div>
                       </div>
-
-                  </div>
-                </div>
-        </div>
-    </section> -->
+            </div>
+          </div>
+      </div>
+    </section>
 
     <!-- Experience -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="experience">
+    <section class="resume py-5 d-lg-flex align-items-center" id="experience">
         <div class="container">
             <div class="row">
 
@@ -241,12 +246,8 @@
       <div class="container">
         <div class="row">
           
-          <div class="col-lg-5 mr-lg-5 col-12">
-            
-          
-            </div>
+         
           </div>
-
           <div class="col-lg-6 col-12">
             <div class="contact-form">
               <h2 class="mb-4">Interested to work together? Let's talk</h2>
@@ -265,6 +266,11 @@
                   <div class="col-12">
                     <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
                   </div>
+                  
+                  <div class="network"><h5>Click here 
+                    <a href="https://www.linkedin.com/in/sridhargoud123/" target="_blank" class="linkedin">
+                      <img src="images/linkedin.png" alt="linkedin icon"></a> to connect me over <i class="link">LinkedIn
+                          <a href="images/linkedin.png"></a></i></a></h5></div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
                     <input type="submit" class="form-control submit-btn" value="Send Button">                  
@@ -282,11 +288,10 @@
      <footer class="footer py-5">
           <div class="container">
                <div class="row">
-
                     <div class="col-lg-12 col-12">                       
-                        <p class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="index.html">Sridhar</a></p>
-                    </div>
-                    
+                        <p class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())
+                        </script> &copy; <a href="index.html">Sridhar</a></p>
+                    </div>                    
                </div>
           </div>
      </footer>

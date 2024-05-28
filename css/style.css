@@ -115,6 +115,15 @@ b, strong {
   position: relative;
 }
 
+.img-responsive {
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+.dark-mode .achievement .topic{
+  color: #c0c0c0;
+}
+
 .name {
   color: #ffc200;
 }
@@ -308,7 +317,18 @@ b, strong {
 }
 
 .dark-mode .weblink{
-  color: #c0c0c0
+  color: #c0c0c0;
+}
+
+.dark-mode .contact-form .link{
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.dark-mode .contact-form .link:hover{
+  color: #ffc200;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .timeline-wrapper {
@@ -362,6 +382,7 @@ b, strong {
   display: inline-block;
   vertical-align: middle;
 }
+
 .owl-carousel .owl-nav span {
   display: none;
 }
@@ -411,6 +432,13 @@ b, strong {
   width: 100%;
 }
 
+.img-responsive{
+  display:block;
+  max-width:100%;
+  height:auto;
+  
+}
+
 .contact-form {
   position: relative;
 }
@@ -438,8 +466,24 @@ b, strong {
   cursor: pointer;
   transition: all 0.4s ease;
 }
+
 .contact-form .submit-btn:hover {
   background: #474559;
+}
+
+.contact-form .network{
+  font-weight: bold;
+  
+}
+
+.contact-form .link{
+  font-weight: bold;
+  color: #ffc200;
+}
+
+.contact-form .link:hover{
+  color: #474559;
+  cursor: pointer;
 }
 
 .contact-info {
